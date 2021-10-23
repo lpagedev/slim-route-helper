@@ -1,0 +1,27 @@
+{
+  "name": "lpagedev/slim-route-helper",
+  "type": "library",
+  "description": "Simplify route responses",
+  "keywords": ["slim","php","route"],
+  "homepage": "https://github.com/lpagedev/slim-route-helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Levi Page",
+      "email": "levipage@gmail.com",
+      "homepage": "https://lpage.dev",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "slim/slim": "^4.9.0",
+    "slim/psr7": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "lpagedev\\Helpers\\": "src/"
+    }
+  }
+}
